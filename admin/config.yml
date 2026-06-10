@@ -2,7 +2,8 @@ backend:
   name: github
   repo: edisonchu115/mengtakhttpsg-website
   branch: main
-  auth_scope: repo
+  base_url: https://mengtakhong.netlify.app
+  auth_endpoint: api/auth
 
 media_folder: assets/images/products
 public_folder: /assets/images/products
