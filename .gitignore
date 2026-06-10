@@ -1,0 +1,5 @@
+progress.json
+missing_images.txt
+*.pyc
+__pycache__/
+.env

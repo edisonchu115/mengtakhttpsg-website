@@ -1,0 +1,22 @@
+[
+  {"name_en": "Super Bock Stout Beer", "name_zh": "超級波克 黑啤酒", "spec": "330ml x24", "abv": 5.7, "category": "beer", "source": "進口"},
+  {"name_en": "Red Bull Energy Drink", "name_zh": "紅牛 能量飲料", "spec": "250ml x24", "abv": null, "category": "energy_drink", "source": "進口"},
+  {"name_en": "Schweppes Dry Ginger Ale", "name_zh": "玉泉 乾薑水", "spec": "200ml x24", "abv": null, "category": "soda", "source": "進口"},
+  {"name_en": "Schweppes Tonic Water", "name_zh": "玉泉 湯力水", "spec": "200ml x24", "abv": null, "category": "soda", "source": "進口"},
+  {"name_en": "Coca Cola Classic", "name_zh": "可口可樂 經典", "spec": "330ml x24", "abv": null, "category": "soda", "source": "進口"},
+  {"name_en": "Coca Cola Zero", "name_zh": "可口可樂 零度", "spec": "330ml x24", "abv": null, "category": "soda", "source": "進口"},
+  {"name_en": "Sprite", "name_zh": "雪碧", "spec": "330ml x24", "abv": null, "category": "soda", "source": "進口"},
+  {"name_en": "Petites Bulles Sparkling Water", "name_zh": "氣泡梳打水", "spec": "330ml x24", "abv": null, "category": "water", "source": "進口"},
+  {"name_en": "Bardinet Grenadine Syrup", "name_zh": "必得利 紅石榴 糖漿", "spec": "1L x6", "abv": null, "category": "syrup", "source": "進口"},
+  {"name_en": "Pelam Lime Juice Cordial", "name_zh": "萊姆 青檸汁 糖漿", "spec": "1L x12", "abv": null, "category": "syrup", "source": "進口"},
+  {"name_en": "Del Monte Pineapple Juice", "name_zh": "地捫 菠蘿汁", "spec": "1.36L x12", "abv": null, "category": "juice", "source": "進口"},
+  {"name_en": "Lay's Flamin' Hot Potato Chips", "name_zh": "樂事 熱辣 薯片", "spec": "120g x18", "abv": null, "category": "food", "source": "進口"},
+  {"name_en": "Sangaria Strawberry Milk Drink", "name_zh": "三佳利 草莓牛奶飲料", "spec": "200ml x30", "abv": null, "category": "beverage", "source": "代理正貨"},
+  {"name_en": "Sangaria Banana Milk Drink", "name_zh": "三佳利 香蕉牛奶飲料", "spec": "200ml x30", "abv": null, "category": "beverage", "source": "代理正貨"},
+  {"name_en": "Sangaria Mixed Fruit Juice", "name_zh": "三佳利 什果汁", "spec": "200ml x30", "abv": null, "category": "juice", "source": "代理正貨"},
+  {"name_en": "Sangaria Carbonated Soda", "name_zh": "三佳利 碳酸飲料", "spec": "350ml x24", "abv": null, "category": "soda", "source": "代理正貨"},
+  {"name_en": "Sangaria Ramune Marble Soda", "name_zh": "三佳利 彈珠波子汽水", "spec": "200ml x30", "abv": null, "category": "soda", "source": "代理正貨"},
+  {"name_en": "Sangaria Green Tea", "name_zh": "三佳利 日式綠茶", "spec": "500ml x24", "abv": null, "category": "tea", "source": "代理正貨"},
+  {"name_en": "Sangaria Matcha Latte", "name_zh": "三佳利 抹茶拿鐵", "spec": "185ml x30", "abv": null, "category": "tea", "source": "代理正貨"},
+  {"name_en": "Nirasaki Beverage", "name_zh": "韮崎 飲料", "spec": "200ml x30", "abv": null, "category": "beverage", "source": "代理正貨"}
+]
