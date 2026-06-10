@@ -1,7 +1,5 @@
-const { Octokit } = require("@octokit/rest");
-
 exports.handler = async (event, context) => {
-  const { code } = event.queryStringParameters;
+  const { code } = event.queryStringParameters || {};
 
   if (!code) {
     return {
@@ -25,21 +23,26 @@ exports.handler = async (event, context) => {
     });
 
     const data = await response.json();
+    const token = data.access_token;
+    const provider = "github";
 
-    const script = `
-    <script>
-      (function() {
-        function receiveMessage(e) {
-          console.log("receiveMessage %o", e);
-          window.opener.postMessage(
-            'authorization:github:success:${JSON.stringify({ token: data.access_token, provider: "github" })}',
-            e.origin
-          );
-        }
-        window.addEventListener("message", receiveMessage, false);
-        window.opener.postMessage("authorizing:github", "*");
-      })()
-    </script>`;
+    const script = `<!DOCTYPE html>
+<html>
+<body>
+<script>
+(function() {
+  function receiveMessage(e) {
+    window.opener.postMessage(
+      'authorization:${provider}:success:' + JSON.stringify({token: '${token}', provider: '${provider}'}),
+      e.origin
+    );
+  }
+  window.addEventListener("message", receiveMessage, false);
+  window.opener.postMessage("authorizing:${provider}", "*");
+})();
+<\/script>
+</body>
+</html>`;
 
     return {
       statusCode: 200,
