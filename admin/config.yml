@@ -2,8 +2,7 @@ backend:
   name: github
   repo: edisonchu115/mengtakhttpsg-website
   branch: main
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
+  auth_scope: repo
 
 media_folder: assets/images/products
 public_folder: /assets/images/products
@@ -26,7 +25,6 @@ collections:
               - {label: "酒精度", name: "abv", widget: "string"}
               - {label: "來源", name: "source", widget: "select", options: ["代理正貨","進口"]}
               - {label: "產品圖片", name: "image", widget: "image", required: false}
-
   - name: "cognac"
     label: "干邑/拔蘭地"
     files:
@@ -44,7 +42,6 @@ collections:
               - {label: "酒精度", name: "abv", widget: "string"}
               - {label: "來源", name: "source", widget: "select", options: ["代理正貨","進口"]}
               - {label: "產品圖片", name: "image", widget: "image", required: false}
-
   - name: "japan"
     label: "日本產品"
     files:
@@ -62,7 +59,6 @@ collections:
               - {label: "酒精度", name: "abv", widget: "string"}
               - {label: "來源", name: "source", widget: "select", options: ["代理正貨","進口"]}
               - {label: "產品圖片", name: "image", widget: "image", required: false}
-
   - name: "korea"
     label: "韓國產品"
     files:
@@ -80,7 +76,6 @@ collections:
               - {label: "酒精度", name: "abv", widget: "string"}
               - {label: "來源", name: "source", widget: "select", options: ["代理正貨","進口"]}
               - {label: "產品圖片", name: "image", widget: "image", required: false}
-
   - name: "wine"
     label: "葡萄酒"
     files:
@@ -98,7 +93,6 @@ collections:
               - {label: "酒精度", name: "abv", widget: "string"}
               - {label: "來源", name: "source", widget: "select", options: ["代理正貨","進口"]}
               - {label: "產品圖片", name: "image", widget: "image", required: false}
-
   - name: "spirits"
     label: "烈酒/力嬌"
     files:
@@ -116,7 +110,6 @@ collections:
               - {label: "酒精度", name: "abv", widget: "string"}
               - {label: "來源", name: "source", widget: "select", options: ["代理正貨","進口"]}
               - {label: "產品圖片", name: "image", widget: "image", required: false}
-
   - name: "chinese"
     label: "中國白酒"
     files:
@@ -134,7 +127,6 @@ collections:
               - {label: "酒精度", name: "abv", widget: "string"}
               - {label: "來源", name: "source", widget: "select", options: ["代理正貨","進口"]}
               - {label: "產品圖片", name: "image", widget: "image", required: false}
-
   - name: "beer"
     label: "啤酒/汽水"
     files:
